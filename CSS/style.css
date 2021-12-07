@@ -10,7 +10,7 @@
   padding: 20px 40px;
 }
 .price {
-  color: #ff136f;
+  color: #34ade6;
 }
 .buy-now-btn {
   background-image: linear-gradient(45deg, #ff589b 0%, #ff136f 100%);
@@ -60,5 +60,13 @@
 }
 .card {
   border: none;
+  border-radius: 10px;
   box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer {
+  border-top: none;
+  background-color: white;
+}
+#subscribe {
+  height: 300px;
 }
