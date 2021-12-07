@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .orange-bg {
@@ -20,4 +20,45 @@
   padding: 9px 25px;
   margin-top: 15px;
   cursor: pointer;
+}
+.cat-1 {
+  background-image: linear-gradient(
+    60deg,
+    orange 0%,
+    rgba(235, 110, 27, 0.945) 100%
+  );
+}
+.cat-2 {
+  background-image: linear-gradient(
+    60deg,
+    rgb(235, 164, 241) 0%,
+    rgba(233, 55, 203, 0.945) 100%
+  );
+}
+.cat-3 {
+  background-image: linear-gradient(
+    60deg,
+    rgb(0, 153, 255) 0%,
+    rgba(48, 75, 224, 0.87) 100%
+  );
+}
+.cat-1,
+.cat-2,
+.cat-3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.catagories h1 {
+  color: white;
+}
+.catagories img {
+  width: 100px;
+  /* margin-left: 60px; */
+}
+.card-gap {
+  margin: 20px;
+}
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
 }
